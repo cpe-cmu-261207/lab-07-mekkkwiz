@@ -15,7 +15,7 @@ const Contact = () => {
       }
   return (
       <>
-        <section class = "main"> 
+        <section class = "main-post"> 
             <nav>
                 <div class = "logo">
                     <name>MEK WISARUT</name>

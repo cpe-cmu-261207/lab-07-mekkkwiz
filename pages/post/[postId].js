@@ -35,6 +35,22 @@ const Post = () => {
       }
     return (
         <>
+            <nav>
+            <div class = "logo">
+                <name>MEK WISARUT</name>
+                <sl>&nbsp;/&nbsp;</sl>
+                <pos>SOFTWARE DEV</pos>
+            </div>
+            <div class = "nav-links">
+                <ul class = "menu">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/gallery">GALLERY</a></li>
+                    <li><a href="/gpa">GPA</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="/post">POST</a></li>
+                </ul>
+            </div>
+        </nav>
             {post !== null ? (
                 <div style={{padding:20}}>
                     <h1>Post : {post.text}</h1>
